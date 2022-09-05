@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Main {  
+  public static void main(String args[]) { 
+  
+    Scanner input = new Scanner(System.in);
+    
+   
+    System.out.print("Insira o numero de eleitores: ");
+    double eleitores = input.nextDouble();
+
+    
+    System.out.print("Insira o numero de votos brancos: ");
+    double brancos = input.nextDouble();
+    
+ System.out.print("Insira o numero de votos nulos: ");
+    double nulos = input.nextDouble();
+    
+  
+   System.out.print("Insira o numero de votos validos: ");
+    double validos = input.nextDouble();
+
+   double validos1 = (validos / 100)*eleitores;
+      double nulos1 = (nulos /100)*eleitores;
+      double brancos1 = (brancos/100)*eleitores;
+    
+   System.out.println("O percentual de cada voto é: ");
+  
+  System.out.println("O percentual do voto branco é : "+brancos1);
+  System.out.println("O percentual do voto nulo é: "+nulos1);
+  System.out.println("O percentual de votos validos é:"+validos1);
+  

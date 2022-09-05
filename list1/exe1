@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main {  
+  public static void main(String args[]) { 
+    
+    
+    Scanner input = new Scanner(System.in);
+    System.out.print("Insira a base: ");
+    Float base = input.nextFloat();
+    System.out.print("Insira a altura: ");
+    Float altura = input.nextFloat();
+
+    Float area = (base*altura);
+    System.out.println("A média é " + area);
+ 
+  
+  
+  
+  } 
+}

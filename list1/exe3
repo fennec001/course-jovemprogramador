@@ -1,0 +1,16 @@
+class Main {  
+  public static void main(String args[]) { 
+    
+    int nota = 3;
+    int nota1 = 2;
+    int nota2 = 5;
+
+    
+  
+  
+  
+  
+  
+  System.out.println("A média do alune é: "+(nota+nota1+nota2)/3);
+  } 
+}

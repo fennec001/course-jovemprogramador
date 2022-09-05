@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main {  
+  public static void main(String args[]) { 
+    Scanner input = new Scanner(System.in);
+    System.out.print("Digite a sua idade em dias: ");
+    int dias = input.nextInt();
+    int anos = dias / 365;
+    int meses = meses /30;
+
+    
+  
+  
+  
+  
+  
+  System.out.println("Idade em dias: "+dias) ;
+   System.out.println("Idade em anos: "+anos) ;
+     System.out.println("Idade em meses: "+meses) ;
+  }
+   }
